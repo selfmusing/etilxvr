@@ -7,8 +7,8 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 
 [YT Music 2958]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/revanced-integrations"
+patches-source = "YT-Advanced/rex-patches"
+integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
 arch = "both"
 version = "6.29.58"
@@ -17,8 +17,8 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 2958 root]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/revanced-integrations"
+patches-source = "YT-Advanced/rex-patches"
+integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
 arch = "both"
 version = "6.29.58"
@@ -27,8 +27,8 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 4159]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/revanced-integrations"
+patches-source = "YT-Advanced/rex-patches"
+integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
 arch = "arm64-v8a"
 version = "6.41.59"
@@ -37,8 +37,8 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 4159 root]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/revanced-integrations"
+patches-source = "YT-Advanced/rex-patches"
+integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
 arch = "arm64-v8a"
 version = "6.41.59"
@@ -47,8 +47,8 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 4454 ]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/revanced-integrations"
+patches-source = "YT-Advanced/rex-patches"
+integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
 arch = "both"
 version = "6.44.54"
@@ -57,8 +57,8 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 4454 root]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "YT-Advanced/revanced-patches"
-integrations-source = "YT-Advanced/revanced-integrations"
+patches-source = "YT-Advanced/rex-patches"
+integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
 arch = "both"
 version = "6.44.54"
