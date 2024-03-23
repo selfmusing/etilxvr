@@ -1,4 +1,4 @@
-enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -17,6 +17,7 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 2958 root]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+build-mode = "module"
 patches-source = "YT-Advanced/rex-patches"
 integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
@@ -37,6 +38,7 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 4159 root]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+build-mode = "module"
 patches-source = "YT-Advanced/rex-patches"
 integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
@@ -57,6 +59,7 @@ excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name Y
 
 [YT Music 4454 root]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+build-mode = "module"
 patches-source = "YT-Advanced/rex-patches"
 integrations-source = "YT-Advanced/rex-integrations"
 rv-brand = "YT-Advanced ReVanced"
