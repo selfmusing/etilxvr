@@ -1,66 +1,66 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Music]
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+[YT Music 2958]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/revanced-patches"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
 arch = "both"
+version = "6.29.58"
+included-patches = "'Disable overlay filter' 'Enable color match player' 'Enable old player background' 'Enable old player layout' 'Enable zen mode' 'Hide double tap overlay filter' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 
-[Twitter]
-build-mode = "apk"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+[YT Music 2958 root]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/revanced-patches"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
+arch = "both"
+version = "6.29.58"
+included-patches = "'Disable overlay filter' 'Enable color match player' 'Enable old player background' 'Enable old player layout' 'Enable zen mode' 'Hide double tap overlay filter' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Custom package name' 'MicroG support'"
 
-[Twitch]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
-
-[TikTok]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
-
-[Reddit]
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+[YT Music 4159]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/revanced-patches"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
 arch = "arm64-v8a"
+version = "6.41.59"
+included-patches = "'Disable overlay filter' 'Hide double tap overlay filter' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+[YT Music 4159 root]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/revanced-patches"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
+arch = "arm64-v8a"
+version = "6.41.59"
+included-patches = "'Disable overlay filter' 'Hide double tap overlay filter' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Custom package name' 'MicroG support'"
 
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
-
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+[YT Music 4454 ]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/revanced-patches"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
 arch = "both"
+version = "6.44.54"
+included-patches = "'Disable overlay filter' 'Hide double tap overlay filter' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Enable old style miniplayer'"
 
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+[YT Music 4454 root]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/revanced-patches"
+integrations-source = "YT-Advanced/revanced-integrations"
+rv-brand = "YT-Advanced ReVanced"
+arch = "both"
+version = "6.44.54"
+included-patches = "'Disable overlay filter' 'Hide double tap overlay filter' 'Replace cast button'"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Custom package name' 'Enable old style miniplayer' 'MicroG support'"
