@@ -1,3 +1,7 @@
+YTMusic4454 (arm-v7a): 6.44.54  
+YTMusic4454 (arm64-v8a): 6.44.54  
+YTMusic2958 (arm-v7a): 6.29.58  
+YTMusic2958 (arm64-v8a): 6.29.58  
 YTMusic4159: 6.41.59  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
